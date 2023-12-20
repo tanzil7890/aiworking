@@ -3548,6 +3548,10 @@ background: -webkit-gradient(
   from(rgba(255, 255, 255, 0.05)),
   to(rgba(255, 255, 255, 0))
 );
+.custom-hero-text {
+  color: black;
+}
+
 background: linear-gradient(
   180deg,
   rgba(255, 255, 255, 0.05) 0%,
@@ -3577,6 +3581,34 @@ background: -webkit-gradient(
   from(rgba(255, 255, 255, 0.11)),
   to(rgba(255, 255, 255, 0))
 );
+
+.email-subscription-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee; /* Replace with the exact grey color from the design */
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.email-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin-right: 10px; /* Spacing between the input and the button */
+}
+
+.submit-button {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
 background: linear-gradient(
   180deg,
   rgba(255, 255, 255, 0.11) 0%,

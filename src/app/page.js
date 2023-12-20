@@ -55,7 +55,7 @@ export default function Home() {
                 <div class="stars"></div>
                 <div class="stars2"></div>
             </div>
-                <div class="text-center">
+                <div class="text-center pt-10">
                     <a href="/"
                         class="hero-subtitle-gradient hover:hero-subtitle-hover relative mb-5 font-medium text-sm inline-flex items-center gap-2 py-2 px-4.5 rounded-full">
                         <Image 
@@ -65,21 +65,39 @@ export default function Home() {
                             height={300} // Some arbitrary value or the SVG's native height
                             unoptimized={true} 
                             className="w-auto h-auto" // This will make the image responsive
+                            
                         />
-                        <span class="hero-subtitle-text text-slate-800">
-                            <p class="text-black">Join Waitlist of our new MVP product for E-commerce companies!📣</p>
+                        <span class=" text-slate-800">
+                            <p className="">Join Waitlist of our product recommendation plugin!📣</p>
                         </span>
                     </a>
                     <h1 class="text-black mb-6 text-4xl font-extrabold sm:text-10xl xl:text-heading-1">
                     Revolutionizing E-Commerce with Cutting-Edge AI
                     </h1>
                     <p class="max-w-[800px] mx-auto mb-9 text-slate-800 font-medium md:text-lg">
-                    Join us in shaping the future of online shopping experiences. Empower your online store with our AI-driven chatbots and personalized shopping assistants
+                    Join us in shaping the future of online shopping experiences.<br></br> Empower your online store with our AI-driven chatbots and personalized shopping assistants.
                     </p>
-                    <a href="index.html#"
-                        class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80">
-                        Start Your Free Trial
-                    </a>
+
+                    <div class="flex justify-center items-center">
+                        <form class="w-full max-w-[534px]">
+                            <div class="flex items-center gap-4">
+                                <div class="flex-grow">
+                                    <input id="email" type="email" name="email" placeholder="Enter your Email"
+                                        class="rounded-full border border-white/[0.12] bg-white/[0.05] focus:border-purple w-full py-3 px-6 outline-none placeholder-zinc-800 text-zinc-800" />
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="button-border-gradient relative rounded-full text-white text-sm flex items-center justify-center gap-1.5 py-3.5 px-7 shadow-button hover:button-gradient-hover hover:shadow-none">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                   
+
+                    
+
                 </div>
             </div>
             <div class="mt-17" data-wow-delay="0.1s">
@@ -95,7 +113,7 @@ export default function Home() {
                 </section>
 
             {/* Features */}
-            <Features />
+            {/* <Features /> */}
                 
             </main>
 
