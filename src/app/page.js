@@ -1,3 +1,5 @@
+'use-client'
+
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -54,28 +56,25 @@ export default function Home() {
                 <div class="stars2"></div>
             </div>
                 <div class="text-center">
-                    <a href="index.html#"
+                    <a href="/"
                         class="hero-subtitle-gradient hover:hero-subtitle-hover relative mb-5 font-medium text-sm inline-flex items-center gap-2 py-2 px-4.5 rounded-full">
                         <Image 
-    src="/images/icon-title.svg" 
-    alt="icon" 
-    width={500} // Some arbitrary value or the SVG's native width
-    height={300} // Some arbitrary value or the SVG's native height
-    unoptimized={true} 
-    className="w-auto h-auto" // This will make the image responsive
-/>
-                        <span class="hero-subtitle-text">
-                            Join Waitlist of our new MVP product for E-commerce companies!📣
+                            src="/images/icon-title.svg" 
+                            alt="icon" 
+                            width={500} // Some arbitrary value or the SVG's native width
+                            height={300} // Some arbitrary value or the SVG's native height
+                            unoptimized={true} 
+                            className="w-auto h-auto" // This will make the image responsive
+                        />
+                        <span class="hero-subtitle-text text-slate-800">
+                            <p class="text-black">Join Waitlist of our new MVP product for E-commerce companies!📣</p>
                         </span>
                     </a>
-                    <h1 class="text-white mb-6 text-3xl font-extrabold sm:text-5xl xl:text-heading-1">
-                        Elevate Your Content with Our AI-Powered Writing Tool
+                    <h1 class="text-black mb-6 text-4xl font-extrabold sm:text-10xl xl:text-heading-1">
+                    Revolutionizing E-Commerce with Cutting-Edge AI
                     </h1>
-                    <p class="max-w-[500px] mx-auto mb-9 font-medium md:text-lg">
-                        Highly customizable Tailwind CSS template for AI - Tool, Startup, Software, App and Product
-                        Sites. Comes
-                        with everything you need - pages, features, sections, components and more that you can easily
-                        customize.
+                    <p class="max-w-[800px] mx-auto mb-9 text-slate-800 font-medium md:text-lg">
+                    Join us in shaping the future of online shopping experiences. Empower your online store with our AI-driven chatbots and personalized shopping assistants
                     </p>
                     <a href="index.html#"
                         class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80">
